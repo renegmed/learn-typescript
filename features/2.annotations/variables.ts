@@ -1,17 +1,17 @@
-let apples: number = 5;
-let speed: string = 'fast';
-let hasName: boolean = true; 
+let apples= 5;
+let speed = 'fast';
+let hasName = true; 
 
-let nothingMuch: null = null; // null is type, and null is a value 
-let nothing: undefined = undefined; 
+let nothingMuch = null; // null is type, and null is a value 
+let nothing = undefined; 
 
 // build in objects
-let now: Date = new Date();
+let now = new Date();
 
 // Array
-let colors: string[] = ['red', 'green', 'blue'];
-let myNumbers: number[] = [1,2,3];
-let truth: boolean[] = [true, true, false];
+let colors = ['red', 'green', 'blue'];
+let myNumbers = [1,2,3];
+let truth = [true, true, false];
 
 // Classes 
 class Car{}
@@ -33,6 +33,16 @@ const logNumber:{(x: number):void} = (i: number) => {
 };
 
 logNumber(35);
+
+
+// When to use annotations
+// 1. Function that returns the 'any' type 
+const json = '{"x": 10, "y": 20}';
+const coordinates: {x: number; y: number} = JSON.parse(json);
+console.log(coordinates);  // { x: 10, y: 20 } 
+ 
+//coordinates.xdsdfsdd
+
 
  
 
