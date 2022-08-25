@@ -7,3 +7,7 @@ run:
 
 run_funcion:
 	ts-node functions.ts
+
+run_objects:
+	ts-node objects.ts
+
