@@ -1,0 +1,19 @@
+Install
+
+    $> npm install -g parcel-bundler 
+
+    $> parcel index.html 
+
+
+    http://localhost:1234 
+
+
+See the doc of faker
+
+    $> npm install faker@5.5.3 
+ 
+    search for faker
+
+Type Definition file for faker. Search at npm 
+
+    $> npm install @types/faker

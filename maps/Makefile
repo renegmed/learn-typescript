@@ -1,0 +1,3 @@
+run:
+	parcel index.html 
+
