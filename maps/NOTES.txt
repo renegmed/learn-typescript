@@ -17,3 +17,16 @@ See the doc of faker
 Type Definition file for faker. Search at npm 
 
     $> npm install @types/faker
+
+
+Google search for 
+
+        Maps Javascript API 
+
+        Generate API Key AIzaSyALC0MumMgBxEhfPTncv1W6HkDsxC0jdNI
+
+Install:
+        $> npm install @types/google.maps
+
+        in browser console type google to prove that google is a global variable        
+
