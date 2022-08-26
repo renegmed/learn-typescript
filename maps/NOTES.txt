@@ -23,7 +23,7 @@ Google search for
 
         Maps Javascript API 
 
-        Generate API Key AIzaSyALC0MumMgBxEhfPTncv1W6HkDsxC0jdNI
+        Example of generated API key AIzaSyALC0MumMgBxEhfPTncv1W6HkDsxC0jdNI
 
 Install:
         $> npm install @types/google.maps
